@@ -118,7 +118,9 @@ footer a:hover{
 
 /* Work Experience STYLES
 -------------------------------------------*/
-
+.work-experience-section h3{
+    border-bottom: 1px dashed #bcaa96;
+}
 /* Education STYLES
 -------------------------------------------*/
 
