@@ -145,9 +145,6 @@ footer a:hover{
 
 /* Work Experience STYLES
 -------------------------------------------*/
-/*.work-experience-section h3{*/
-/*    border-bottom: 1px dashed #bcaa96;*/
-/*}*/
 .work-experience-section{
     display: grid;
     grid-template-columns: 300px 1fr;
@@ -164,9 +161,6 @@ footer a:hover{
 }
 /* Education STYLES
 -------------------------------------------*/
-/*.education-section h3{*/
-/*    border-bottom: 1px dashed #bcaa96;*/
-/*}*/
 .education-section p{
     margin: 0;
 }
