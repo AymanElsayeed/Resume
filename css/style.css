@@ -16,6 +16,7 @@ Off-white     #f6f6f6
 */
 html {
     box-sizing: border-box;
+    font-size: 62.5%; /* setting the default to 10px */
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -28,8 +29,26 @@ html, body{
 
 body{
     background: #f6f6f6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
 }
-
+h1, h2, h3{
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+    margin: 0;
+}
+h1{
+    font-size: 7rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 2.4rem;
+    /*margin: 0;*/
+}
 /* LINKS STYLES -*/
 a {
     color: #3c8453;
