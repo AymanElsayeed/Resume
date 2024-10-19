@@ -152,11 +152,26 @@ footer a:hover{
     display: grid;
     grid-template-columns: 300px 1fr;
     gap: 10px;
+    margin: 30px 0;
+}
+
+.work-details p{
+    margin: 0;
+}
+
+.work-summary p:first-child{
+    margin-top: 0;
 }
 /* Education STYLES
 -------------------------------------------*/
-.education-section h3{
-    border-bottom: 1px dashed #bcaa96;
+/*.education-section h3{*/
+/*    border-bottom: 1px dashed #bcaa96;*/
+/*}*/
+.education-section p{
+    margin: 0;
+}
+.education-section{
+    margin: 30px 0;
 }
 /* FOOTER STYLES
 -------------------------------------------*/
