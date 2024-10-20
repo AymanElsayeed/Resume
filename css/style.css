@@ -207,13 +207,13 @@ footer a:hover{
 
 /* Skills STYLES
 -------------------------------------------*/
-
-.skills-group{
-    display: inline-grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    margin: 10px 10px auto;
+@media screen and (min-width: 860px) {
+    .skills-group {
+        display: inline-grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        margin: 10px 10px auto;
+    }
 }
-
 
 /* FOOTER STYLES
 -------------------------------------------*/
