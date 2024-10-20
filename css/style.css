@@ -100,6 +100,14 @@ footer a:hover{
     background: rgb(255 255 255 / 0.8);
     padding: 30px;
 }
+@media screen and (max-width:650px){
+    .home .content-wrapper {
+        padding: 10px;
+    }
+    .content-bg {
+        padding: 20px;
+    }
+}
 /* RESUME STYLES
 -------------------------------------------*/
 .resume header::before{
