@@ -235,6 +235,9 @@ footer a:hover{
         grid-gap: 50px;
     }
 }
+.skills-group a{
+    text-decoration: none; /* remove underline */
+}
 /* FOOTER STYLES
 -------------------------------------------*/
 
