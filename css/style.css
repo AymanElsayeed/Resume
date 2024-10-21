@@ -281,3 +281,25 @@ footer{
     }
 
 }
+
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.project-item{
+    margin-bottom: 50px;
+}
+
+.project-item img{
+    height: 200px;
+    width: 300px
+}
+
+@media screen and (max-width: 860px) {
+    .grid-layout {
+        grid-template-columns: 1fr;
+    }
+}
