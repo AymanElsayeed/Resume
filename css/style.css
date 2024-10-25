@@ -310,3 +310,8 @@ footer{
         grid-template-columns: 1fr;
     }
 }
+
+.much-cert{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
